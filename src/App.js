@@ -14,11 +14,11 @@ function App() {
     }
   ]);
 
-  const addNewTeamMember = teamMember => {
+  const addNewTeamMember = team => {
     const newMember = {
       id: ([]),
-      name: teamMember.name,
-      title: teamMember.title,
+      name: team.name,
+      title: team.title,
     };
     setTeamMember([...teamMember, newMember]);
   };

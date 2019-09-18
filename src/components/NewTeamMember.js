@@ -17,7 +17,7 @@ const NewTeamMember = props => {
 
     return (
         <form onSubmit={submitForm}>
-            <lablel htmlFor='name'>Name</lablel>
+            <label htmlFor='name'>Name</label>
             <input
                 id='name'
                 type='text'
@@ -33,7 +33,7 @@ const NewTeamMember = props => {
                 onChange={handleChanges}
                 value={member.title}
                 />
-            <buttton type='submit'>Add</buttton>
+            <button type='submit'>Add</button>
         </form>
     );
 };
